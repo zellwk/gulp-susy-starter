@@ -1,0 +1,29 @@
+@import "normalize";
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+$susy: (
+  columns: 12, 
+  container: 1140px,
+  gutters: 0.25,
+  global-box-sizing: border-box,
+  debug: (image: show-columns)
+  );
+
+.testing {
+  @include span(12);
+}
+
+.testing2 {
+  @include span(2);
+  margin-left: span(4);
+}
+
+.testing3 {
+  @include span(2);
+  margin-left: span(6);
+  @include breakpoint(20em) {
+    @include span(4); 
+    margin-left: span(3);
+  }
+}
