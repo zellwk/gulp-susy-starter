@@ -1,4 +1,4 @@
-## Grunt Susy Starter 
+## Gulp Susy Starter 
 
 This is a starter project template that uses LibSass to compile Susy with Gulp. Detailed instructions on how this template is set up is found at http://www.zell-weekeat.com/gulp-libsass-with-susy/
 
